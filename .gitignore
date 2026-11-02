@@ -1,0 +1,12 @@
+# Local configuration and generated media do not belong in this skill package.
+.env
+.env.*
+!.env.example
+*.mp4
+*.mov
+*.mp3
+*.wav
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db
